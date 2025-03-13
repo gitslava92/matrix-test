@@ -1,0 +1,1 @@
+export { AssetsAnalitics } from "./AssetsAnalitics";

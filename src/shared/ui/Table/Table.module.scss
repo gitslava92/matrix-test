@@ -1,0 +1,47 @@
+.table {
+  border-radius: 8px;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  color: #000;
+  overflow-x: auto;
+
+  .header {
+    width: 100%;
+    display: flex;
+    position: relative;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+
+  .body {
+    width: 100%;
+    display: block;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  th,
+  td {
+    width: 100%;
+    display: flex;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    text-align: left;
+  }
+
+  @media (max-width: 800px) {
+    th,
+    td {
+      font-size: 12px;
+      padding: 6px 8px;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  table-layout: fixed;
+}
